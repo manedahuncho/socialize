@@ -1,0 +1,26 @@
+.input-field input {
+    border-color: rgba(128, 128, 128, 0.055);
+    box-shadow: none !important;
+}
+
+.input-field input:focus{
+    border-color: rgba(185, 194, 202, 0.34);
+}
+
+.link-tag a {
+    text-decoration: none;
+}
+
+/* app index style here  */
+.center {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: auto;
+    top: 0px;
+}
+
+.app-center {
+    position: relative;
+    top: 300px;
+}

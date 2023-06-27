@@ -1,0 +1,48 @@
+.inbox input {
+    box-shadow: none !important;
+}
+
+.toggle-btn {
+    position: relative;
+    height: 30px;
+    width: 50px;
+    background: #ddd;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.toggle-btn.active {
+    background: #7d2ae8;
+}
+
+.toggle-btn .icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: #7d2ae8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn.active .icon {
+    left: calc(28% - 8px - 8px);
+    color: #7d2ae8; 
+}
+
+/* calling content style here */
+/* .calling-contents img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
