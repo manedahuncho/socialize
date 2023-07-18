@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/font-icon/all.min.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body class="bg-light">
+    
+    <div class="container-fluid bg-dark p-0 border-0" style="border-bottom: none; height:min-content">
+        <div class="container ">
+            <div class="d-flex justify-content-between flex-row mb-3 pt-2">
+                <div class="m-2"><h6 class="text-light ">Complete Your Profile</h6></div>
+                <div class="m-2"><span class="text-light">Save</span></div>
+            </div>
+
+            <!-- image  --><box-icon class="text-light" type='solid' name='image-add'></box-icon>
+            <div class="d-flex justify-content-center">
+                <img src="assets/img/profile1.jpg" class="border img-fluid" style="width: 85px; border-radius: 50%;" alt="" srcset="">
+            </div>
+            <!-- image  -->
+        </div>
+
+        <!-- section 2 edit -->
+        <div class="container-fluid p-5 bg-light mt-4" style="border-top-left-radius: 40px; border-top-right-radius: 40px; border: 0px !important; border-bottom: none;">
+            <!-- edit input fieldset here -->
+            <section class="container input-field" style="border: 0px;">
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="mb-4">
+                                <label for="formFile" class="form-label">Upload your picture</label>
+                                <input class="form-control" type="file" id="formFile" style="background-color: transparent; border-color: rgba(128, 128, 128, 0.034);">
+                            </div>
+                            <div class="mb-4">
+                                <label for="mobile_number" class="form-label">Gender</label>
+                                <select class="form-select" aria-label="Default select example" style="box-shadow: none !important; background-color: transparent; border-color: rgba(128, 128, 128, 0.034);">
+                                    <option selected>Choose your gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="femlae">Female</option>
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label ">Date Of Birth</label>
+                                <input type="date" class="form-control"  style="box-shadow: none !important; background-color: transparent; border-color: rgba(128, 128, 128, 0.034);" id="dob">
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label ">BIO</label>
+                                <textarea name="" class="form-control" id="" cols="30" rows="10" placeholder="write a short bio here" style="box-shadow: none; border-color: rgba(128, 128, 128, 0.034); background-color: transparent;"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- app footer icons here  -->
+                <div class="container-fluid bg-light fixed-bottom pt-3 pb-2 " style="border-top-left-radius: 25px; border-top-right-radius: 25px; ">
+                    <div class="d-flex justify-content-between">
+                        <div class="p-2">
+                            <a href="#" class="" style="font-size: 20px; color: rgba(128, 128, 128, 0.368) ;"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="p-2">
+                            <a href="#" class="" style="font-size: 20px; color: rgba(128, 128, 128, 0.368) ;"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="p-2">
+                            <a href="#" class="text-dark" style="font-size: 20px;"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+     <!-- app footer icons here  -->
+            </section>
+            <!-- edit input fieldset here  -->
+        </div>
+        <!-- section 2 edit -->
+        <!-- section footer  -->
+        
+        <!-- section footer  -->
+    </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/font-icon/all.min.js"></script>
+</body>
+</html>
